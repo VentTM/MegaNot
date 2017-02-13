@@ -11,6 +11,7 @@ cd MegaNot
 chmod +x launch.sh
 chmod +x tg
 ./launch.sh install
+./launch.sh
 # Enter a phone number & confirmation code.
 ```
 Create a bot !
