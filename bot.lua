@@ -530,8 +530,8 @@ function tdcli_update_callback(data)
       for k,v in pairs(sudo_users) do
         send(v, 0, 1, "شارژ این گروه به اتمام رسید \nLink : "..(database:get("bot:group:link"..msg.chat_id_) or "تنظیم نشده").."\nID : "..msg.chat_id_..'\n\nدر صورتی که میخواهید ربات این گروه را ترک کند از دستور زیر استفاده کنید\n\n/leave'..msg.chat_id_..'\nبرای جوین دادن توی این گروه میتونی از دستور زیر استفاده کنی:\n/join'..msg.chat_id_..'\n_________________\nدر صورتی که میخواهید گروه رو دوباره شارژ کنید میتوانید از کد های زیر استفاده کنید...\n\n<code>برای شارژ 1 ماهه:</code>\n/plan1'..msg.chat_id_..'\n\n<code>برای شارژ 3 ماهه:</code>\n/plan2'..msg.chat_id_..'\n\n<code>برای شارژ نامحدود:</code>\n/plan3'..msg.chat_id_, 1, 'html')
       end
-        send(msg.chat_id_, 0, 1, 'شارژ این گروه به اتمام رسید و ربات در گروه غیر فعال شد...\nبرای تمدید کردن ربات به @MehdiHS پیام دهید.\nدر صورت ریپورت بودن میتوانید با ربات زیر با ما در ارتباط باشید:\n @BlackSupport_Bot', 1, 'html')
-        send(msg.chat_id_, 0, 1, 'ربات به دلایلی گروه را ترک میکند\nبرای اطلاعات بیشتر میتوانید با @MehdiHS در ارتباط باشید.\nدر صورت ریپورت بودن میتوانید با ربات زیر به ما پیام دهید\n@BlackSupport_Bot\n\nChannel> @Black_Ch', 1, 'html')
+        send(msg.chat_id_, 0, 1, 'شارژ این گروه به اتمام رسید و ربات در گروه غیر فعال شد...\nبرای تمدید کردن ربات به @SudoMohammad پیام دهید.\nدر صورت ریپورت بودن میتوانید با ربات زیر با ما در ارتباط باشید:\n @PvSudoBot', 1, 'html')
+        send(msg.chat_id_, 0, 1, 'ربات به دلایلی گروه را ترک میکند\nبرای اطلاعات بیشتر میتوانید با @SudoMohammad در ارتباط باشید.\nدر صورت ریپورت بودن میتوانید با ربات زیر به ما پیام دهید\n@PvSudoBot\n\nChannel> @VentTM', 1, 'html')
 	   chat_leave(msg.chat_id_, bot_id)
       end
     end
