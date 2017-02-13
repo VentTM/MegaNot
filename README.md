@@ -9,7 +9,6 @@ cd $HOME
 git clone https://github.com/VentTM/MagaNot.git
 cd MegaNot
 chmod +x launch.sh
-chmod +x tg
 ./launch.sh install
 ./launch.sh
 # Enter a phone number & confirmation code.
