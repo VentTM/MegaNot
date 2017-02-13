@@ -7,12 +7,10 @@
 ```
 cd $HOME
 git clone https://github.com/VentTM/MagaNot.git
-cd TeleMute
-chmod +x install.sh
+cd MegaNot
 chmod +x launch.sh
 chmod +x tg
-./install.sh
-./launch.sh
+./launch.sh install
 # Enter a phone number & confirmation code.
 ```
 Create a bot !
