@@ -32,7 +32,7 @@ send ```Your PM``` to @PvSudoBot in telegram
 
 >[!/]createsuper [group name]
 >
->>[!/]createsuperMute
+>>[!/]createsuperVent
 >>>will create a SuperGroup
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
